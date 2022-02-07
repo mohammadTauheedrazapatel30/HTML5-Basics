@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+        tables
+    </title>
+    <style>
+        table {
+            background-color: aqua;
+            border-collapse: collapse;
+            padding: 15px;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #D6EEEE;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cols-5">
+        <a href="index.html">HOME</a>
+        <a href="border.html">Border</a>
+        <a href="colors.html">Colors</a>
+        <a href="format.html">Format</a>
+    </div>
+
+    <div class="cols">
+        <table border="1">
+            <tr>
+                <th>Sr no</th>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Gender</th>
+                <th>Phone No</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Tauheed Patel</td>
+                <td>Sadar</td>
+                <td>Male</td>
+                <td>70665555555</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Tushar</td>
+                <td>Mankapur</td>
+                <td>Male</td>
+                <td>70998877633</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Tyson</td>
+                <td>Sadar</td>
+                <td>Male</td>
+                <td>73000022222</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Taufeeq</td>
+                <td>Sadar</td>
+                <td>Male</td>
+                <td>79866664322</td>
+            </tr>
+        </table>
+        <h3>Using colgroup</h3>
+        <table>
+            <colgroup>
+                <col span="2" style="background-color:#D6EEEE">
+            </colgroup>
+            <tr>
+                <th>MON</th>
+                <TH>TUE</TH>
+                <th>WED</th>
+                <TH>THURS</TH>
+                <TH>fri</TH>
+                <TH>SATURDAY</TH>
+            </tr>
+            <TR>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </TR>
+        </table>
+    </div>
+    <div>
+        <ol>
+            <li>This</li>
+            <li>is</li>
+            <li>ordered</li>
+            <li>list</li>
+        </ol>
+    </div>
+    <div>
+        <ul>
+            <li>This</li>
+            <li>is</li>
+            <li>unordered</li>
+            <li>LIST</li>
+        </ul>
+    </div>
+    <div>
+        <dl>
+            <dt>Coffee</dt>
+            <dd> - black hot drink</dd>
+            <dt>Tea</dt>
+            <dd> - black smooth drink</dd>
+        </dl>
+    </div>
+</body>
+
+</html>
